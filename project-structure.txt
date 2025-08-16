@@ -1,0 +1,19 @@
+document-automation-system/
+├── backend/
+│   ├── enhanced_main.py          # Enhanced FastAPI backend
+│   ├── enhanced_document_generator.py  # DOCX/PDF generation
+│   ├── ai_service.py            # Hugging Face AI integration
+│   ├── requirements.txt         # Updated dependencies
+│   └── .env.example            # Environment configuration
+├── frontend/
+│   ├── package.json            # React dependencies
+│   ├── tsconfig.json           # TypeScript config
+│   ├── public/index.html       # HTML template
+│   └── src/
+│       ├── index.tsx           # React entry point
+│       ├── App.tsx             # Main app component
+│       ├── App.css             # Styling
+│       └── components/
+│           └── DocumentForm.tsx # Main form component
+├── README.md                   # Complete documentation
+└── start_system.py            # Startup script

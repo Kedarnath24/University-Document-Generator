@@ -1,0 +1,63 @@
+
+> I want to build an **AI-powered document automation system** for universities and institutions.
+>
+> **Scenario:**
+>
+> * Students often request official documents from the college such as **Bonafide Certificate, Letters, Bus Pass Applications, No-Objection Certificates (NOC)**, etc.
+> * The college’s **Registrar Office Staff** should be able to enter the student’s details once, select the document type, and the system will automatically generate the official document **in the respective university’s format**.
+> * For demonstration, use **Harvard University**’s style for one sample document template.
+>
+> **Requirements:**
+>
+> 1. **Frontend:**
+>
+>    * Use **React** to build a web interface.
+>    * The form should allow selecting a document type from a dropdown (Bonafide, Letter, NOC, etc.).
+>    * Allow staff to input student details (Name, Roll No, Course, Year, Purpose, etc.).
+>    * On submission, send details to the backend.
+>    * Display a success message and allow downloading the generated document.
+> 2. **Backend:**
+>
+>    * Use **Python (FastAPI or Flask)** to run locally.
+>    * Accept document type + student details from the frontend.
+>    * Insert the details into a **predefined template** for that document type.
+>    * For example: use a Harvard-styled **Bonafide Certificate** template for demo purposes.
+>    * Return the generated file (DOCX or PDF) to the frontend.
+> 3. **Document Template Example:**
+>
+>    * Create a Harvard University Bonafide Certificate template:
+>
+>      ```
+>      HARVARD UNIVERSITY  
+>      BONAFIDE CERTIFICATE  
+>
+>      This is to certify that Mr./Ms. [STUDENT NAME], Roll No: [ROLL NO], is a bonafide student of this institution.  
+>      He/She has been studying in this institution since [ADMISSION DATE] in the [COURSE NAME] program.  
+>      This certificate is issued for the purpose of [PURPOSE].  
+>
+>      Date: [DATE]  
+>      Place: Harvard University  
+>
+>      _____________________  
+>      Registrar  
+>      Harvard University
+>      ```
+> 4. **Output:**
+>
+>    * The backend should generate a document (DOCX or PDF) containing the student’s filled-in details.
+>    * The document should be downloadable with a filename format:
+>
+>      ```
+>      <document_type>_<student_name>_<purpose>.pdf
+>      ```
+> 5. **Deployment:**
+>
+>    * Provide the **React code** for the frontend.
+>    * Provide the **Python backend code** to run locally.
+>    * Include one **sample Harvard format template** to show working.
+>
+> The system should be modular so additional document templates for other universities can be added later.
+
+>use models from huggingface(if needed) with api-key of huggingface
+
+---
